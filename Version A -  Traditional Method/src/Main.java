@@ -8,6 +8,7 @@ public class Main {
         boolean running = true;
         while (running) {
             printMenu();
+            System.out.print("Choose an Option: ");
             int choice = Integer.parseInt(scanner.nextLine());
             if (choice == 1) {
                 createUser();
